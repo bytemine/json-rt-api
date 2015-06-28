@@ -16,6 +16,7 @@ However what you actually need is a working JRuby.
 ## Setup 
 
 * On the RequestTracker server you simply run the jar file with java. Typically from an upstart job.
+  An example upstart config is in `contrib/init/json-rt-api.conf`. 
 
 * On the icinga / nagios side you hook into the global event handlers. Proper scripts are in the `nagios-icinga` directory.
 
