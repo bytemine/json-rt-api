@@ -4,6 +4,15 @@ rt-api
 This is a custom HTTP JSON API for RT. The service exposes a JSON API and
 uses the "rt" command line tool to control RT.
 
+## Build
+
+Generally it might be a good idea to use rvm.
+However what you actually need is a working JRuby.
+
+* `$ gem install bundler`
+* `$ bundle install`
+* `$ rake jar`
+
 ## Setup 
 
 * On the RequestTracker server you simply run the jar file with java. Typically from an upstart job.
