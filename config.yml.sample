@@ -1,0 +1,12 @@
+# RT-API example configuration.
+---
+bin: "/usr/bin/rt"
+url: "https://rt.example.com/"
+autoresolve: true
+default_queue: "icinga"
+queues:
+  customerA: "customerA-support"
+username: "<username>"
+password: "<password>"
+host: '127.0.0.1'
+port: 3000

@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'rack/handler/puma'
+require 'rt_api/app'
+require 'rt_api/config'
+
+config = RTAPI::Config.load
+
+Rack::Handler::Puma.run(RTAPI::App, {
+  environment: 'production',
+  Host: config.host,
+  Port: config.port,
+  Threads: '2:16'
+})
