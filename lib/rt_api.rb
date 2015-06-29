@@ -1,3 +1,6 @@
+# Written by / Copyright (C) 2015 bytemine GmbH
+# 2-Clause BSD License applies. See LICENSE.
+
 require 'logger'
 
 module RTAPI

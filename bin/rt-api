@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+# Written by / Copyright (C) 2015 bytemine GmbH
+# 2-Clause BSD License applies. See LICENSE.
+
 require 'rack/handler/puma'
 require 'rt_api/app'
 require 'rt_api/config'
