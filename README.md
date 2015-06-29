@@ -1,5 +1,5 @@
-rt-api
-------
+json rt-api
+-----------
 
 This is a custom HTTP JSON API for RT. The service exposes a JSON API and
 uses the "rt" command line tool to control RT.
@@ -81,5 +81,6 @@ rt edit 18427 set status=resolved
 ## Authors
 
 Daniel Rauer, <rauer@bytemine.net>
+
 Bernd Ahlers, <ahlers@bytemine.net>
 
